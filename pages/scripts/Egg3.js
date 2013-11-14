@@ -148,7 +148,7 @@ var Egg = {
             clearInterval(Egg.ticker);
             Egg.updateTitle(Egg.expiredMessage);
             Egg.updateText(Egg.expiredMessage);
-            Egg.showAlert();
+#Egg.showAlert();
         } else {
             var next = Egg.sequence.shift();
             Egg.initializeTimer(0, next.duration * 1000, next.label);

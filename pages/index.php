@@ -10,12 +10,12 @@ $soundVolume = isset($_COOKIE["soundVolume"]) ? $_COOKIE["soundVolume"] : "1";
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="Description" content="E.ggTimer.com is a simple, easy-to-use online countdown timer, or egg timer. Just set a time and bookmark it for repeated use. You can also create a count down to a specific date or time.">
+	<meta name="Description" content="timer.flyclops.com is a simple, easy-to-use online countdown timer, or egg timer. Just set a time and bookmark it for repeated use. You can also create a count down to a specific date or time.">
    <meta name="keywords" content="countdown, count, down, egg timer, timer, productivity, time, online countdown, online timer">
    <meta name="content-language" content="EN" />
    <meta name="summary" content="A simple, easy-to-use online countdown timer." />
    <meta name="title" content="E.gg Timer - simple online countdown timer" />
-   <meta name="url" content="e.ggtimer.com" />
+   <meta name="url" content="timer.flyclops.com" />
    <meta name="robots" content="index, follow" />
    <meta name="robots" content="all" />
    <meta name="revisit-after" content="1 Days" />
@@ -25,7 +25,7 @@ $soundVolume = isset($_COOKIE["soundVolume"]) ? $_COOKIE["soundVolume"] : "1";
 	<title>E.gg Timer - simple online countdown timer</title>
 	<link rel="stylesheet" href="/styles/style.css" type="text/css" media="screen" title="Normal" charset="utf-8">
 	<link rel="shortcut icon" href="/images/favicon.ico">
-   <link type="text/plain" rel="author" href="http://e.ggtimer.com/humans.txt" />
+   <link type="text/plain" rel="author" href="http://timer.flyclops.com/humans.txt" />
    <link title="EggTimer" type="application/opensearchdescription+xml" rel="search" href="/pages/opensearch.xml">
 </head>
 <body>
@@ -33,7 +33,7 @@ $soundVolume = isset($_COOKIE["soundVolume"]) ? $_COOKIE["soundVolume"] : "1";
    <!-- <?php echo $soundVolume; ?> -->
 	<div id="wrapper">
 		<div id="header">
-			<h1><img src="/images/eggtimer.gif" alt="Welcome to e.ggtimer.com"></h1>
+			<h1><img src="/images/eggtimer.gif" alt="Welcome to timer.flyclops.com"></h1>
 		</div><!-- end header -->
 		<div id="timer">
 			<form action="/timer/start.php" method="post">
@@ -66,16 +66,16 @@ $soundVolume = isset($_COOKIE["soundVolume"]) ? $_COOKIE["soundVolume"] : "1";
 				<h2>Use it like an egg timer or a count down timer.</h2>
 				<h3>Example usage:</h3>
 				<ul>
-					<li><a href="http://e.ggtimer.com/5minutes" title="5 minute timer" target="_blank">http://e.ggtimer.com/<b>5minutes</b></a></li>
-					<li><a href="http://e.ggtimer.com/1hour" title="1 hour timer" target="_blank">http://e.ggtimer.com/<b>1hour</b></a></li>
-					<li><a href="http://e.ggtimer.com/30" title="30 second timer" target="_blank">http://e.ggtimer.com/<b>30</b> (defaults to seconds)</a></li>
+					<li><a href="http://timer.flyclops.com/5minutes" title="5 minute timer" target="_blank">http://timer.flyclops.com/<b>5minutes</b></a></li>
+					<li><a href="http://timer.flyclops.com/1hour" title="1 hour timer" target="_blank">http://timer.flyclops.com/<b>1hour</b></a></li>
+					<li><a href="http://timer.flyclops.com/30" title="30 second timer" target="_blank">http://timer.flyclops.com/<b>30</b> (defaults to seconds)</a></li>
 				</ul>
             <h3>Special Timers:</h3>
             <ul>
-				   <li><a href="http://e.ggtimer.com/pomodoro">http://e.ggtimer.com/<b>pomodoro</b> (does one 25/5 minute cycle)</a></li>
-				   <li><a href="http://e.ggtimer.com/morning">http://e.ggtimer.com/<b>morning</b> (can help get your blood pumping)</a></li>
-				   <li><a href="http://e.ggtimer.com/brushteeth">http://e.ggtimer.com/<b>brushteeth</b> (for healthy teeth)</a></li>
-               <li><li><a href="http://e.ggtimer.com/tabata">http://e.ggtimer.com/<b>tabata</b> (8 reps of 20/10 second intervals)</a></li>
+				   <li><a href="http://timer.flyclops.com/pomodoro">http://timer.flyclops.com/<b>pomodoro</b> (does one 25/5 minute cycle)</a></li>
+				   <li><a href="http://timer.flyclops.com/morning">http://timer.flyclops.com/<b>morning</b> (can help get your blood pumping)</a></li>
+				   <li><a href="http://timer.flyclops.com/brushteeth">http://timer.flyclops.com/<b>brushteeth</b> (for healthy teeth)</a></li>
+               <li><li><a href="http://timer.flyclops.com/tabata">http://timer.flyclops.com/<b>tabata</b> (7 reps of 20/10 second intervals)</a></li>
             </ul>
             <h3>What's this then?</h3>
 				<ul id="footer">

@@ -13,7 +13,7 @@ RewriteRule ^egg3.manifest/? /pages/egg3.manifest
 
 #Special Timers (fix later)
 RewriteRule ^morning/?$ /extra/morning.php
-RewriteRule ^pomodoro/?$ /extra/pomodoro.php
+RewriteRule ^pomodoro/?$ /timer/htmlTimer3.php?t=25minutes&l=SHUT+UP+AND+WORK
 RewriteRule ^tabata/?$ /extra/tabata.php
 RewriteRule ^pizza/?$ /extra/pizza.php
 RewriteRule ^finalcountdown/?$ /extra/finalcountdown.php
