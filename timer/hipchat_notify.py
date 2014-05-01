@@ -13,6 +13,7 @@ if __name__ == '__main__':
             'POMO-It started y\'all',
             'POMO DON\'T STOPO!',
             'TALK NOT, POMO INTERRUPTER!',
+            'POMO ARIGATO, MR. ROBOTO!',
             'DIE THEE, WHO INTERRUPTITH THE POMO!',
             'AND SO WE POMO AGAIN, FOR THE FIRST TIME, FOR THE LAST TIME.',
             'IN 25 MINUTES, YOU CAN OPEN YOUR FACE AGAIN. UNTIL THEN, POMO!'
