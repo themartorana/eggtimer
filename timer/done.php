@@ -1,4 +1,6 @@
-<!doctype html>
+<?php
+shell_exec ('env/bin/python hipchat_notify.py 1');
+?><!doctype html>
 <html> <!-- manifest="/egg404.manifest" -->
    <head>
       <title>Timer - E.ggTimer</title>
@@ -25,8 +27,8 @@
       <div id="textWrapper">
       </script>
         <h2 id="progressText">
-         POMODOROCLOPS!<br />
-          <a href="/pomodoro">FIGHT</a>
+         POMO-DONEO!<br />
+          <a href="/pomodoro">Again!</a>
         </h2>
       </div>
       

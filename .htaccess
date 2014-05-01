@@ -6,7 +6,7 @@ RewriteEngine on
 #Home
 RewriteRule ^m/?$ /pages/index.php
 RewriteRule ^ie/?$ /pages/index.php
-RewriteRule ^/?$ /pages/index.php
+RewriteRule ^/?$ /timer/start.php
 
 #Manifest
 RewriteRule ^egg3.manifest/? /pages/egg3.manifest
@@ -18,6 +18,8 @@ RewriteRule ^tabata/?$ /extra/tabata.php
 RewriteRule ^pizza/?$ /extra/pizza.php
 RewriteRule ^finalcountdown/?$ /extra/finalcountdown.php
 RewriteRule ^brushteeth/? /timer/timer.php?t=2minutes&l=Be+Thorough
+
+RewriteRule ^done/? /timer/done.php
 
 #Meta
 RewriteRule ^robots.txt/?$ /pages/robots.txt

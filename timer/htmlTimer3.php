@@ -1,4 +1,6 @@
 <?php
+shell_exec ('env/bin/python hipchat_notify.py 0');
+
 $error = "none";
 $origTime = $_REQUEST["t"];
 $ztime = $_REQUEST["t"];
